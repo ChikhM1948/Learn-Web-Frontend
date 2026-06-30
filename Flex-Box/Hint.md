@@ -64,3 +64,5 @@ Remplacez chaque `____` par la bonne valeur ou la bonne propriété.
 | Réponse à la question écrite | 3 |
 | Bonus réalisé (au moins un) | 2 |
 | **Total** | **20** |
+
+*LingoLab Academy © 2026 dr Chikh Amine*
