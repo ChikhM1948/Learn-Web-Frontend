@@ -181,6 +181,124 @@ Lien vers cette section : [Aller aux exercices](#section-exercices)
 
 ---
 
+## 12. Texte barré — `<del>` / `<s>`
+
+`<del>` indique un texte supprimé (sens sémantique), `<s>` un texte simplement barré visuellement.
+
+**Code :**
+```html
+<del>Ancien prix : 2000 DA</del>
+<s>Erreur corrigée</s>
+```
+
+**Résultat :** <del>Ancien prix : 2000 DA</del> — <s>Erreur corrigée</s>
+
+---
+
+## 13. Couleur de texte — `<span style="color:...">`
+
+Markdown ne permet pas de colorer du texte. `<span>` avec un style en ligne le permet.
+
+**Code :**
+```html
+<span style="color:red">Texte en rouge</span>
+<span style="color:blue">Texte en bleu</span>
+```
+
+**Résultat :** <span style="color:red">Texte en rouge</span> — <span style="color:blue">Texte en bleu</span>
+
+---
+
+## 14. Citation avec source — `<blockquote>` + `<cite>`
+
+**Code :**
+```html
+<blockquote>
+  La connaissance s'acquiert par la pratique.
+  <cite>— Proverbe</cite>
+</blockquote>
+```
+
+**Résultat :**
+
+<blockquote>
+  La connaissance s'acquiert par la pratique.
+  <cite>— Proverbe</cite>
+</blockquote>
+
+---
+
+## 15. Police de texte — `<font>` (ancien, à éviter mais encore utilisé)
+
+**Code :**
+```html
+<font size="5" color="green">Titre en grand et en vert</font>
+```
+
+**Résultat :** <font size="5" color="green">Titre en grand et en vert</font>
+
+> Remarque : `<font>` est une balise obsolète en HTML5. Préférez `<span style="...">` quand c'est possible.
+
+---
+
+## 16. Ligne horizontale — `<hr>`
+
+Markdown a `---`, mais `<hr>` permet plus de contrôle (épaisseur, couleur via CSS).
+
+**Code :**
+```html
+<hr>
+```
+
+**Résultat :**
+
+<hr>
+
+---
+
+## 17. Mise en page sur deux colonnes — `<table>` détourné
+
+**Code :**
+```html
+<table>
+<tr>
+<td width="50%">
+
+**Colonne gauche**
+Texte ici.
+
+</td>
+<td width="50%">
+
+**Colonne droite**
+Autre texte ici.
+
+</td>
+</tr>
+</table>
+```
+
+**Résultat :**
+
+<table>
+<tr>
+<td width="50%">
+
+**Colonne gauche**
+Texte ici.
+
+</td>
+<td width="50%">
+
+**Colonne droite**
+Autre texte ici.
+
+</td>
+</tr>
+</table>
+
+---
+
 ## Remarque importante
 
 Le support de ces balises HTML dépend du moteur qui affiche le Markdown :
@@ -193,9 +311,33 @@ Toujours tester le rendu sur la plateforme cible avant de livrer un document fin
 
 ---
 
-### Exercice pour les étudiants
+## Exercices pour les étudiants
 
+### Exercice 1 — Présentation personnelle
 Rédigez un court paragraphe sur vous-même en utilisant au moins :
 1. Une balise `<br>`
 2. Une balise `<u>` ou `<mark>`
 3. Une balise `<details>` avec un `<summary>`
+
+### Exercice 2 — Fiche produit
+Créez une fiche produit (réel ou imaginaire) qui utilise :
+1. `<del>` pour montrer un ancien prix barré
+2. `<span style="color:...">` pour mettre en valeur le nouveau prix
+3. Un `<table>` simple pour lister les caractéristiques (nom, prix, disponibilité)
+
+### Exercice 3 — Mise en forme d'un cours
+À partir d'un petit texte de cours (5 lignes minimum), ajoutez :
+1. Un titre avec `<font>` ou `<span style="...">` pour le mettre en couleur
+2. Une `<blockquote>` contenant une citation ou définition importante, avec `<cite>` pour la source
+3. Un `<hr>` pour séparer deux parties du cours
+
+### Exercice 4 — Page biographique en deux colonnes
+En utilisant un `<table>` à deux colonnes (`<td width="50%">`), présentez :
+- Colonne gauche : une photo (`<img>` avec largeur fixée) et votre nom
+- Colonne droite : un court texte de présentation avec `<sup>` ou `<sub>` pour une note de bas de texte
+
+### Exercice 5 — FAQ repliable
+Créez une mini FAQ (3 questions minimum) où chaque réponse est cachée dans un `<details>`/`<summary>`. Utilisez `<kbd>` pour illustrer au moins un raccourci clavier dans une des réponses.
+
+### Exercice 6 — Défi combiné
+Combinez au moins 6 balises différentes vues dans ce document pour créer une page complète (par exemple une annonce d'événement, un CV simplifié, ou un menu de restaurant). Listez en commentaire (sous forme de liste Markdown) les balises utilisées.
