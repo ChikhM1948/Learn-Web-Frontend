@@ -49,4 +49,4 @@ En CSS, il ne doit jamais y avoir d'espace entre un nombre et son unité.
 La propriété raccourcie `font` exige obligatoirement `font-size` **et** `font-family`. Sans `font-family`, la déclaration est invalide.
 
 ---
-*LingoLab Academy © 2026*
+*LingoLab Academy © 2026 dr Chikh Amine*

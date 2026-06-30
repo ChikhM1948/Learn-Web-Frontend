@@ -341,3 +341,5 @@ Créez une mini FAQ (3 questions minimum) où chaque réponse est cachée dans u
 
 ### Exercice 6 — Défi combiné
 Combinez au moins 6 balises différentes vues dans ce document pour créer une page complète (par exemple une annonce d'événement, un CV simplifié, ou un menu de restaurant). Listez en commentaire (sous forme de liste Markdown) les balises utilisées.
+
+*LingoLab Academy © 2026 dr Chikh Amine*
