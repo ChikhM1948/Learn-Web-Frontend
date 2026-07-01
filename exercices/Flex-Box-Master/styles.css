@@ -1,2 +1,21 @@
 /* écris ton css ici */ 
 
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid #d1cbcb; 
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #fdfbfb;
+    max-width: 300px;
+
+}
+
+.card-actions{
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    background-color: #fdfbfb;
+    margin-top: 10px;
+}
