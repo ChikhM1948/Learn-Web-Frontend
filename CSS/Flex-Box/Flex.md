@@ -335,6 +335,6 @@ il **grandit pour occuper l'espace libre**.
 💡 **Astuce prof** : ouvre ce fichier dans VS Code et fais `Ctrl+Shift+V`
 pour voir toutes les animations en direct pendant le cours.
 
-Made with 💙 for **LingoLab Academy**
+ **LingoLab Academy -- dr chikh amine**
 
 </div>
