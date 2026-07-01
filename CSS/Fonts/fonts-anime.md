@@ -320,6 +320,6 @@ body {
 💡 **Astuce prof** : ouvre ce fichier dans VS Code et fais `Ctrl+Shift+V`
 pour voir toutes les animations en direct pendant le cours.
 
-Made with 💙 for **LingoLab Academy**
+Made by **LingoLab Academy -- Dr Chikh Amine**
 
 </div>
