@@ -3,7 +3,8 @@
   height: 300px;
   background-color: #f0f0f0;
   border: 4px dashed #333;
-  position: relative;
+
+ 
 }
 
 .child {
@@ -15,7 +16,6 @@
   align-items: center;
   justify-content: center;
   font-weight: bold;
-  position: absolute;
 }
 
 
