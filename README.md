@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Animated wave banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:38bdf8,100:6366f1&amp;height=200&amp;section=header&amp;text=Learn-Web-Frontend&amp;fontSize=50&amp;fontColor=ffffff&amp;animation=fadeIn&amp;fontAlignY=35&amp;desc=Ressources%20%26%20Exercices%20pour%20apprendre%20le%20D%C3%A9veloppement%20Web&amp;descAlignY=55&amp;descSize=18"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:38bdf8,100:6366f1&amp;height=200&amp;section=header&amp;text=Learn-Web-Frontend&amp;fontSize=50&amp;fontColor=ffffff&amp;animation=fadeIn&amp;fontAlignY=35&amp;desc=Ressources%20et%20Exercices%20pour%20apprendre%20le%20D%C3%A9veloppement%20Web&amp;descAlignY=55&amp;descSize=18"/>
 
 <!-- Animated typing line -->
 <a href="#">
