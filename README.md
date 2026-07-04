@@ -132,5 +132,3 @@ Formateur • LingoLab Academy • DevLab Solutions
 <br/>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:6366f1,100:38bdf8&amp;height=120&amp;section=footer"/>
-
-</div>
