@@ -49,6 +49,18 @@ Learn-Web-Frontend/
 
 <br/>
 
+## 📘 Guides animés disponibles
+
+| Guide | Sujet | Lien |
+|---|---|---|
+| 🧩 Flexbox | `display: flex`, `justify-content`, `align-items`, `gap`, `flex-wrap` | [CSS/Flex-Box/Flexbox.md](https://github.com/ChikhM1948/Learn-Web-Frontend/blob/main/CSS/Flex-Box/Flexbox.md) |
+| ✒️ Typographie CSS | `font-family`, `clamp()`, variables CSS, contrôles interactifs | [CSS/Fonts/Typographie.md](https://github.com/ChikhM1948/Learn-Web-Frontend/blob/main/CSS/Fonts/Typographie.md) |
+| 📍 Position | `static`, `relative`, `absolute`, `fixed`, `sticky` | [CSS/Position/Position.md](https://github.com/ChikhM1948/Learn-Web-Frontend/blob/main/CSS/Position/Position.md) |
+
+> 💡 Chaque guide contient des schémas animés, le code CSS/HTML commenté propriété par propriété, et des exercices pratiques.
+
+<br/>
+
 ## 🧭 Comment l'utiliser
 
 <table>
