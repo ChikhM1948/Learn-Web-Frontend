@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Animated wave banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:38bdf8,100:6366f1&amp;height=200&amp;section=header&amp;text=Learn-Web-Frontend&amp;fontSize=50&amp;fontColor=ffffff&amp;animation=fadeIn&amp;fontAlignY=35&amp;desc=Ressources%20%26%20Exercices%20pour%20apprendre%20le%20D%C3%A9veloppement%20Web&amp;descAlignY=55&amp;descSize=18"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:38bdf8,100:6366f1&amp;height=200&amp;section=header&amp;text=Learn-Web-Frontend&amp;fontSize=50&amp;fontColor=ffffff&amp;animation=fadeIn&amp;fontAlignY=35&amp;desc=Ressources%20et%20Exercices%20pour%20apprendre%20le%20D%C3%A9veloppement%20Web&amp;descAlignY=55&amp;descSize=18"/>
 
 <!-- Animated typing line -->
 <a href="#">
@@ -56,6 +56,8 @@ Learn-Web-Frontend/
 | 🧩 Flexbox | `display: flex`, `justify-content`, `align-items`, `gap`, `flex-wrap` | [CSS/Flex-Box/Flexbox.md](https://github.com/ChikhM1948/Learn-Web-Frontend/blob/main/CSS/Flex-Box/Flexbox.md) |
 | ✒️ Typographie CSS | `font-family`, `clamp()`, variables CSS, contrôles interactifs | [CSS/Fonts/Typographie.md](https://github.com/ChikhM1948/Learn-Web-Frontend/blob/main/CSS/Fonts/Typographie.md) |
 | 📍 Position | `static`, `relative`, `absolute`, `fixed`, `sticky` | [CSS/Position/Position.md](https://github.com/ChikhM1948/Learn-Web-Frontend/blob/main/CSS/Position/Position.md) |
+| 🧩 Balises sémantiques HTML | `header`, `nav`, `main`, `article`, `section`, `aside`, `footer`, `figure`, `time` | [HTML/Html-Tags + Exercices/Semantic-Tags.md](https://github.com/ChikhM1948/Learn-Web-Frontend/blob/main/HTML/Semantic-Tags.md) |
+| 📦 Balises non-sémantiques HTML | `div`, `span`, `b` vs `strong`, `i` vs `em`, `br`, `hr` | [HTML/Html-Tags + Exercices/Non-Semantic-Tags.md](https://github.com/ChikhM1948/Learn-Web-Frontend/blob/main/HTML/Non-Semantic-Tags.md) |
 
 > 💡 Chaque guide contient des schémas animés, le code CSS/HTML commenté propriété par propriété, et des exercices pratiques.
 
@@ -132,5 +134,3 @@ Formateur • LingoLab Academy • DevLab Solutions
 <br/>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:6366f1,100:38bdf8&amp;height=120&amp;section=footer"/>
-
-</div>
