@@ -1,24 +1,24 @@
 <div align="center">
 
 <!-- Animated wave banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:38bdf8,100:6366f1&height=200&section=header&text=Learn-Web-Frontend&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Ressources%20%26%20Exercices%20pour%20apprendre%20le%20D%C3%A9veloppement%20Web&descAlignY=55&descSize=18"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:38bdf8,100:6366f1&amp;height=200&amp;section=header&amp;text=Learn-Web-Frontend&amp;fontSize=50&amp;fontColor=ffffff&amp;animation=fadeIn&amp;fontAlignY=35&amp;desc=Ressources%20%26%20Exercices%20pour%20apprendre%20le%20D%C3%A9veloppement%20Web&amp;descAlignY=55&amp;descSize=18"/>
 
 <!-- Animated typing line -->
 <a href="#">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=Bienvenue+sur+votre+espace+d%27apprentissage+%F0%9F%9A%80;HTML+%E2%80%A2+CSS+%E2%80%A2+JavaScript+%E2%80%A2+Projets;Exercices+pratiques+%2B+Corrections+%2B+Ressources;Encadr%C3%A9+par+Dr.+Chikh+Mohamed+Amine" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=22&amp;pause=1000&amp;color=38BDF8&amp;center=true&amp;vCenter=true&amp;width=700&amp;lines=Bienvenue+sur+votre+espace+d%27apprentissage+%F0%9F%9A%80;HTML+%E2%80%A2+CSS+%E2%80%A2+JavaScript+%E2%80%A2+Projets;Exercices+pratiques+%2B+Corrections+%2B+Ressources;Encadr%C3%A9+par+Dr.+Chikh+Mohamed+Amine" alt="Typing SVG" />
 </a>
 
 <br/>
 
 <!-- Badges -->
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&amp;logo=html5&amp;logoColor=white"/>
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&amp;logo=css3&amp;logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&amp;logo=javascript&amp;logoColor=black"/>
 <img src="https://img.shields.io/badge/Statut-Actif-success?style=for-the-badge"/>
 <br/>
 <img src="https://img.shields.io/github/stars/ChikhM1948/Learn-Web-Frontend?style=social"/>
 <img src="https://img.shields.io/github/forks/ChikhM1948/Learn-Web-Frontend?style=social"/>
-<img src="https://komarev.com/ghpvc/?username=ChikhM1948-LWF&label=Visiteurs&color=38bdf8&style=flat-square"/>
+<img src="https://komarev.com/ghpvc/?username=ChikhM1948-LWF&amp;label=Visiteurs&amp;color=38bdf8&amp;style=flat-square"/>
 
 </div>
 
@@ -131,6 +131,6 @@ Formateur • LingoLab Academy • DevLab Solutions
 
 <br/>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:6366f1,100:38bdf8&height=120&section=footer"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:6366f1,100:38bdf8&amp;height=120&amp;section=footer"/>
 
 </div>
