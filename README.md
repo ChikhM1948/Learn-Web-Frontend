@@ -56,8 +56,13 @@ Learn-Web-Frontend/
 | 🧩 Flexbox | `display: flex`, `justify-content`, `align-items`, `gap`, `flex-wrap` | [CSS/Flex-Box/Flexbox.md](https://github.com/ChikhM1948/Learn-Web-Frontend/blob/main/CSS/Flex-Box/Flexbox.md) |
 | ✒️ Typographie CSS | `font-family`, `clamp()`, variables CSS, contrôles interactifs | [CSS/Fonts/Typographie.md](https://github.com/ChikhM1948/Learn-Web-Frontend/blob/main/CSS/Fonts/Typographie.md) |
 | 📍 Position | `static`, `relative`, `absolute`, `fixed`, `sticky` | [CSS/Position/Position.md](https://github.com/ChikhM1948/Learn-Web-Frontend/blob/main/CSS/Position/Position.md) |
-| 🧩 Balises sémantiques HTML | `header`, `nav`, `main`, `article`, `section`, `aside`, `footer`, `figure`, `time` | [01-HTML/Semantic-Tags.md](https://github.com/ChikhM1948/Learn-Web-Frontend/blob/main/01-HTML/Semantic-Tags.md) |
-| 📦 Balises non-sémantiques HTML | `div`, `span`, `b` vs `strong`, `i` vs `em`, `br`, `hr` | [01-HTML/Non-Semantic-Tags.md](https://github.com/ChikhM1948/Learn-Web-Frontend/blob/main/01-HTML/Non-Semantic-Tags.md) |
+| 🧩 Balises sémantiques HTML | `header`, `nav`, `main`, `article`, `section`, `aside`, `footer`, `figure`, `time` | [HTML/Html-Tags + Exercices/Semantic-Tags.md](https://github.com/ChikhM1948/Learn-Web-Frontend/blob/main/HTML/Html-Tags%20+%20Exercices/Semantic-Tags.md) |
+| 📦 Balises non-sémantiques HTML | `div`, `span`, `b` vs `strong`, `i` vs `em`, `br`, `hr` | [HTML/Html-Tags + Exercices/Non-Semantic-Tags.md](https://github.com/ChikhM1948/Learn-Web-Frontend/blob/main/HTML/Html-Tags%20+%20Exercices/Non-Semantic-Tags.md) |
+| 🧱 CSS Grid — Cours | `display: grid`, `fr`, `repeat()`, `minmax()`, `grid-template-areas` | [CSS/Grid/Grid.md](https://github.com/ChikhM1948/Learn-Web-Frontend/blob/main/CSS/Grid/Grid.md) |
+| 🧪 CSS Grid — Exercices | 3 exercices à trous progressifs | [exercices/Grid-Master/Hint.md](https://github.com/ChikhM1948/Learn-Web-Frontend/blob/main/exercices/Grid-Master/Hint.md) |
+| 🎴 CSS Grid — Mini-projet | Dashboard admin complet avec Grid | [projets/Grid-Dashboard/Consigne.md](https://github.com/ChikhM1948/Learn-Web-Frontend/blob/main/projets/Grid-Dashboard/Consigne.md) |
+| 🧭 Navbar (mini-projet) | `display: flex`, `justify-content: space-between`, responsive | [projets/Simple-Navbar/Navbar.md](https://github.com/ChikhM1948/Learn-Web-Frontend/blob/main/projets/Simple-Navbar/Navbar.md) |
+| 🔍 Search Bar (mini-projet) | `position: fixed`, `position: absolute`, `z-index` | [projets/SearachBar/SearchBar.md](https://github.com/ChikhM1948/Learn-Web-Frontend/blob/main/projets/SearachBar/SearchBar.md) |
 
 > 💡 Chaque guide contient des schémas animés, le code CSS/HTML commenté propriété par propriété, et des exercices pratiques.
 
