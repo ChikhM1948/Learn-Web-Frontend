@@ -1,18 +1,261 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Badge</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Cartes Produits - Flex & Position</title>
+    <style>
+        /* === RESET DE BASE === */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f5f5;
+            padding: 40px 20px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 40px;
+            color: #333;
+        }
+
+        /* === CONTENEUR FLEX === */
+        .container {
+            display: flex;
+            /* flex-direction: row; */  /* par défaut */
+            justify-content: center;      /* centre horizontalement */
+            align-items: stretch;       /* même hauteur */
+            flex-wrap: wrap;            /* passe à la ligne si trop étroit */
+            gap: 30px;                  /* espace entre les cartes */
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* === CARTE PRODUIT === */
+        .card {
+            /* Flex item */
+            flex: 1 1 300px;            /* grow shrink basis */
+            max-width: 350px;
+            
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+            
+            /* Position relative pour les éléments enfants absolus */
+            position: relative;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+
+        /* === IMAGE AVEC BADGE POSITIONNÉ === */
+        .card-image {
+            height: 200px;
+            background-size: cover;
+            background-position: center;
+            position: relative;  /* référence pour le badge */
+        }
+
+        /* Badge "Promo" positionné absolument */
+        .badge {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background: #e74c3c;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: bold;
+        }
+
+        /* Badge "Nouveau" positionné différemment */
+        .badge-new {
+            position: absolute;
+            top: 15px;
+            left: 15px;  /* à gauche cette fois */
+            background: #27ae60;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: bold;
+        }
+
+        /* === CONTENU DE LA CARTE === */
+        .card-body {
+            padding: 20px;
+        }
+
+        .card-category {
+            color: #888;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 8px;
+        }
+
+        .card-title {
+            font-size: 1.25rem;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .card-description {
+            color: #666;
+            font-size: 0.95rem;
+            line-height: 1.5;
+            margin-bottom: 15px;
+        }
+
+        /* === PRIX ET BOUTON === */
+        .card-footer {
+            display: flex;              /* Flex pour aligner prix et bouton */
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 15px;
+            border-top: 1px solid #eee;
+        }
+
+        .price {
+            font-size: 1.4rem;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .price .old-price {
+            font-size: 0.9rem;
+            color: #999;
+            text-decoration: line-through;
+            margin-left: 8px;
+        }
+
+        .btn {
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background: #2980b9;
+        }
+
+        /* === IMAGES DE DÉMO === */
+        .card-1 .card-image {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+
+        .card-2 .card-image {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+        }
+
+        .card-3 .card-image {
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+        }
+
+        /* Icônes simulées avec du texte centré */
+        .card-image::after {
+            content: "📷";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 3rem;
+            opacity: 0.3;
+        }
+
+        /* === RESPONSIVE === */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .card {
+                flex: 1 1 100%;
+                max-width: 100%;
+            }
+        }
+    </style>
 </head>
 <body>
- <div class="card">
-  <img src="/Images/avatar.jpg" class="avatar">
-  <span class="badge">Online</span>
-  <h3>Chikh Amine</h3>
-  <p>Web Developer</p>
-</div>
+
+    <h1>Nos Produits</h1>
+
+    <div class="container">
+        
+        <!-- CARTE 1 : Avec badge "Promo" -->
+        <article class="card card-1">
+            <div class="card-image">
+                <span class="badge">-30%</span>
+            </div>
+            <div class="card-body">
+                <div class="card-category">Électronique</div>
+                <h2 class="card-title">Casque Bluetooth Pro</h2>
+                <p class="card-description">
+                    Casque sans fil avec réduction de bruit active et autonomie de 30 heures.
+                </p>
+                <div class="card-footer">
+                    <div class="price">
+                        4500 DZD
+                        <span class="old-price">6000 DZD</span>
+                    </div>
+                    <button class="btn">Ajouter</button>
+                </div>
+            </div>
+        </article>
+
+        <!-- CARTE 2 : Avec badge "Nouveau" -->
+        <article class="card card-2">
+            <div class="card-image">
+                <span class="badge-new">Nouveau</span>
+            </div>
+            <div class="card-body">
+                <div class="card-category">Mode</div>
+                <h2 class="card-title">Montre Connectée</h2>
+                <p class="card-description">
+                    Suivez votre activité, votre sommeil et recevez vos notifications en temps réel.
+                </p>
+                <div class="card-footer">
+                    <div class="price">9000 DZD</div>
+                    <button class="btn">Ajouter</button>
+                </div>
+            </div>
+        </article>
+
+        <!-- CARTE 3 : Sans badge -->
+        <article class="card card-3">
+            <div class="card-image">
+                <!-- Pas de badge ici -->
+            </div>
+            <div class="card-body">
+                <div class="card-category">Maison</div>
+                <h2 class="card-title">Lampe Design LED</h2>
+                <p class="card-description">
+                    Lampe de bureau moderne avec intensité variable et température de couleur ajustable.
+                </p>
+                <div class="card-footer">
+                    <div class="price">12000 DZD</div>
+                    <button class="btn">Ajouter</button>
+                </div>
+            </div>
+        </article>
+
+    </div>
 
 </body>
 </html>
