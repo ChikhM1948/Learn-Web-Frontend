@@ -63,6 +63,11 @@ Learn-Web-Frontend/
 | 🎴 CSS Grid — Mini-projet | Dashboard admin complet avec Grid | [projets/Grid-Dashboard/Consigne.md](https://github.com/ChikhM1948/Learn-Web-Frontend/blob/main/projets/Grid-Dashboard/Consigne.md) |
 | 🧭 Navbar (mini-projet) | `display: flex`, `justify-content: space-between`, responsive | [projets/Simple-Navbar/Navbar.md](https://github.com/ChikhM1948/Learn-Web-Frontend/blob/main/projets/Simple-Navbar/Navbar.md) |
 | 🔍 Search Bar (mini-projet) | `position: fixed`, `position: absolute`, `z-index` | [projets/SearachBar/SearchBar.md](https://github.com/ChikhM1948/Learn-Web-Frontend/blob/main/projets/SearachBar/SearchBar.md) |
+| 🗂️ Z-Index — Cours + Exercices | `z-index`, stacking context, modales | [CSS/Z-Index/Z-Index.md](https://github.com/ChikhM1948/Learn-Web-Frontend/blob/main/CSS/Z-Index/Z-Index.md) |
+| 📦 Overflow — Cours + Exercices | `visible`, `hidden`, `scroll`, `auto` | [CSS/Overflow/Overflow.md](https://github.com/ChikhM1948/Learn-Web-Frontend/blob/main/CSS/Overflow/Overflow.md) |
+| ⚓ Float — Cours + Exercices | `float`, `clear`, clearfix | [CSS/Float/Float.md](https://github.com/ChikhM1948/Learn-Web-Frontend/blob/main/CSS/Float/Float.md) |
+| 🧭 Navbar — Cours + Exercices | sticky, dropdown, menu hamburger | [CSS/Navbar/Navbar-Course.md](https://github.com/ChikhM1948/Learn-Web-Frontend/blob/main/CSS/Navbar/Navbar-Course.md) |
+| 🎨 Background — Cours + Exercices | `background-size`, `linear-gradient()`, parallaxe | [CSS/Background/Background.md](https://github.com/ChikhM1948/Learn-Web-Frontend/blob/main/CSS/Background/Background.md) |
 
 > 💡 Chaque guide contient des schémas animés, le code CSS/HTML commenté propriété par propriété, et des exercices pratiques.
 
