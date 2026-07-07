@@ -1,0 +1,76 @@
+/* Reset & Base Styles */
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background-color: #f3f4f6;
+  height: 100vh;
+}
+
+/* 1. THE GRID CONTAINER */
+.dashboard-container {
+  display: grid;
+  /* Columns: 1st column is 240px wide (Sidebar). 2nd column takes up the remaining space (1fr). */
+  grid-template-columns: 240px 1fr;
+  /* Rows: Top bar is 70px high. Main content takes up the remaining height. */
+  grid-template-rows: 70px 1fr;
+  height: 100vh;
+}
+
+/* 2. THE SIDEBAR */
+.sidebar {
+  background-color: #1e293b; /* Dark Slate Blue */
+  color: white;
+  padding: 20px;
+  /* It starts at row 1 and spans down all rows so it goes top-to-bottom */
+  grid-row: span 2; 
+}
+
+/* 3. THE TOP BAR */
+.top-bar {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* It automatically sits in column 2, row 1 */
+}
+
+/* 4. THE MAIN CONTENT AREA */
+.main-content {
+  padding: 20px;
+  background-color: #f8fafc;
+  overflow-y: auto; /* Scrollable if content overflows */
+  
+  /* Setting up an inner grid just for the dashboard cards */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+/* Styling the inner Dashboard Widgets/Cards */
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  min-height: 150px;
+}
+
+/* Example of grid-span inside the main content */
+.card-wide {
+  grid-column: span 2; /* Spans across both columns inside the main grid */
+  min-height: 300px;
+}
+
+/* Quick aesthetic styles for links */
+.nav-links a {
+  display: block;
+  color: #94a3b8;
+  padding: 10px 0;
+  text-decoration: none;
+}
+.nav-links a.active {
+  color: white;
+  font-weight: bold;
+}
